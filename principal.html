@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doce Encanto</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Great+Vibes&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to bottom, #ffe6f0, #ffffff);
+      color: #444;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 10%;
+      background: rgba(255,255,255,0.8);
+      backdrop-filter: blur(10px);
+      position: sticky;
+      top: 0;
+    }
+
+    header h1 {
+      font-family: 'Great Vibes', cursive;
+      color: #ff80aa;
+      font-size: 32px;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #ff80aa;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #ff4d88;
+    }
+
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 80px 10%;
+    }
+
+    .hero-text {
+      max-width: 500px;
+    }
+
+    .hero-text h2 {
+      font-size: 42px;
+      color: #ff6699;
+      margin-bottom: 20px;
+    }
+
+    .hero-text p {
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
+
+    .btn {
+      background: #ff80aa;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 25px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #ff4d88;
+    }
+
+    .hero img {
+      width: 350px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
+
+    .section {
+      padding: 60px 10%;
+      text-align: center;
+    }
+
+    .section h3 {
+      font-size: 28px;
+      color: #ff6699;
+      margin-bottom: 30px;
+    }
+
+    .cards {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 20px;
+      width: 250px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 15px;
+      margin-bottom: 15px;
+    }
+
+    footer {
+      background: #ffe6f0;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Doce Encanto</h1>
+  <nav>
+    <a href="#">Início</a>
+    <a href="#">Produtos</a>
+    <a href="#">Contato</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <h2>Doces que encantam cada momento</h2>
+    <p>Delicie-se com nossos bolos, cupcakes e sobremesas feitas com amor e ingredientes selecionados.</p>
+    <a href="#" class="btn">Ver Cardápio</a>
+  </div>
+  <img src="https://i.pinimg.com/originals/9e/3e/35/9e3e35d7272f0e37157d197d521c77b5.jpg" alt="Bolo decorado">
+</section>
+
+<section class="section">
+  <h3>Nossos Destaques</h3>
+  <div class="cards">
+    <div class="card">
+      <img src="https://i0.wp.com/cursosdeconfeitaria.com.br/wp-content/uploads/2018/03/Cupcake-de-Frutas-5.jpg?resize=565%2C377" alt="Cupcake">
+      <h4>Cupcakes</h4>
+      <p>Macios e decorados com perfeição.</p>
+    </div>
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrjgP_UFdGdcM-E62Z_L6AYQ2fi_zXxXqxIQ&s" alt="Bolo">
+      <h4>Bolos</h4>
+      <p>Perfeitos para qualquer ocasião.</p>
+    </div>
+    <div class="card">
+      <img src="https://i.ytimg.com/vi/4kxCUWXbJ1M/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBO9PSzsdRU0PUkLh0hE8Tn24l89A" alt="Doces">
+      <h4>Doces Finos</h4>
+      <p>Elegância em cada detalhe.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Doce Encanto - Todos os direitos reservados</p>
+</footer>
+
+</body>
+</html>
